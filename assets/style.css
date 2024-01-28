@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/manoel_gomes.jpg'); /* Degradê preto sobre a imagem */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh; /* Adicionado height para cobrir a tela inteira */
+}
+
+footer {
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: transparent; /* Removida a cor de fundo do footer */
+    color: white;
+}
+
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.content {
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 0 8px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.login-btn {
+    padding: 8px 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #218838;
+}
+
+.frase-motivacional {
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 25px;
+}
